@@ -20,7 +20,11 @@ const NoteSchema = new Schema({
     img: {
         type: String,
         default: null,
-    }
+    },
+    date: {
+        type: Date,
+        default: Date.now,
+    },
 
 
 
